@@ -89,14 +89,14 @@ window.I18N.de = {
       ],
       skills: [
         { label: "Programmierung & Lernen", items: ["Python", "PyTorch", "C / C++", "MATLAB"] },
-        { label: "Robotik & Hardware", items: ["ROS 2", "Raspberry Pi", "VHDL", "Arduino IDE"] },
+        { label: "Robotik & Hardware", items: ["ROS 2", "Arduino IDE"] },
         { label: "Bauelementsimulation", items: ["Sentaurus TCAD", "LTspice"] }
       ],
       honors: [
         "Tag der Mathematik 2022 — 4. Platz im Einzelwettbewerb; 3. Platz im Gruppenwettbewerb",
         "Informatik-Biber 2022 — 3. Rang"
       ],
-      languages: ["Mandarin · Muttersprache", "Shanghainesisch · Muttersprache", "Englisch · B2", "Deutsch · Abitur", "Spanisch · A2"],
+      languages: ["Mandarin · Muttersprache", "Wu-Chinesisch · Muttersprache", "Englisch · B2", "Deutsch · Abitur", "Spanisch · A2"],
       offDutyTitle: "Abseits des Labors.",
       offDutyText: "Mein Bildungsweg begann mit Mathematik, Physik und Musik an der Schloss Schule Kirchberg. Diese Fotos zeigen eine weitere Seite des Menschen hinter den Projekten.",
       gallery: [
@@ -229,6 +229,7 @@ window.I18N.de = {
           description: "Internationaler Austausch während des Bachelorstudiums an der CUHK."
         }
       ],
+      educationAchievement: {"date":"2022","title":"Gaokao in Jiangsu","description":"Beim Gaokao 2022 in der Provinz Jiangsu unter den besten 0,1 %."},
       skills: [
         { label: "Programmierung & Daten", items: ["Python", "SQL", "R", "Excel", "pandas", "NumPy"] },
         { label: "Modelle & Methoden", items: ["statsmodels", "arch", "scikit-learn", "LightGBM", "ARIMA / GARCH", "Faktor-Backtesting"] },
@@ -239,7 +240,7 @@ window.I18N.de = {
         "CUHK Head’s List (Merit) — Auszeichnung des College-Leiters für gute Studienleistungen, 2022–2023",
         "Novo Nordisk: Bewertung & Kreditrisiko — Note A; FCFF-DCF, CAPM-WACC, Unternehmensvergleiche und szenariobasierte Kreditanalyse"
       ],
-      languages: ["Mandarin · Muttersprache", "Englisch · Fließend / IELTS 7,5", "Kantonesisch · Fließend", "Französisch · Anfängerin"],
+      languages: ["Mandarin · Muttersprache", "Wu-Chinesisch · Muttersprache", "Englisch · Fließend / IELTS 7,5", "Kantonesisch · Fließend", "Französisch · Anfängerin"],
       offDutyTitle: "Mehr als nur Zahlen.",
       offDutyText: "Abseits der Finanzmodelle begeistere ich mich für Tauchen, Badminton, Wandern und Fotografie. Ich habe eine Advanced-Open-Water-Tauchqualifikation und entdecke gerne neue Perspektiven durch die Kamera.",
       gallery: [

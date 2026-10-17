@@ -89,14 +89,14 @@ window.I18N.fr = {
       ],
       skills: [
         { label: 'Programmation et apprentissage', items: ['Python', 'PyTorch', 'C / C++', 'MATLAB'] },
-        { label: 'Robotique et matériel', items: ['ROS 2', 'Raspberry Pi', 'VHDL', 'Arduino IDE'] },
+        { label: 'Robotique et matériel', items: ['ROS 2', 'Arduino IDE'] },
         { label: 'Simulation de composants', items: ['Sentaurus TCAD', 'LTspice'] }
       ],
       honors: [
         'Tag der Mathematik 2022 — 4e place au concours individuel ; 3e place au concours par équipes',
         'Informatik-Biber 2022 — 3e rang'
       ],
-      languages: ['Mandarin · Langue maternelle', 'Shanghaïen · Langue maternelle', 'Anglais · B2', 'Allemand · Abitur', 'Espagnol · A2'],
+      languages: ['Mandarin · Langue maternelle', 'Chinois wu · Langue maternelle', 'Anglais · B2', 'Allemand · Abitur', 'Espagnol · A2'],
       offDutyTitle: 'Au-delà du laboratoire.',
       offDutyText: 'Mon parcours a commencé par les mathématiques, la physique et la musique à Schloss Schule Kirchberg. Ces photos offrent un autre regard sur la personne derrière les projets.',
       gallery: [
@@ -229,6 +229,7 @@ window.I18N.fr = {
           description: 'Échange international pendant les études de licence à CUHK.'
         }
       ],
+      educationAchievement: {"date":"2022","title":"Gaokao du Jiangsu","description":"Classée dans les 0,1 % de tête au Gaokao 2022 dans la province du Jiangsu."},
       skills: [
         { label: 'Programmation et données', items: ['Python', 'SQL', 'R', 'Excel', 'pandas', 'NumPy'] },
         { label: 'Modèles et méthodes', items: ['statsmodels', 'arch', 'scikit-learn', 'LightGBM', 'ARIMA / GARCH', 'Backtests factoriels'] },
@@ -239,7 +240,7 @@ window.I18N.fr = {
         'CUHK Head’s List (mérite) — 2022–2023',
         'Valorisation et crédit de Novo Nordisk — Note A ; DCF sur flux de trésorerie disponibles pour l’entreprise, WACC fondé sur le CAPM, comparaisons sectorielles et analyse de crédit par scénarios'
       ],
-      languages: ['Mandarin · Langue maternelle', 'Anglais · Courant / IELTS 7,5', 'Cantonais · Courant', 'Français · Débutant'],
+      languages: ['Mandarin · Langue maternelle', 'Chinois wu · Langue maternelle', 'Anglais · Courant / IELTS 7,5', 'Cantonais · Courant', 'Français · Débutant'],
       offDutyTitle: 'Un peu au-delà des chiffres.',
       offDutyText: 'En dehors des modèles financiers, j’aime la plongée, le badminton, la randonnée et la photographie. Titulaire de la certification de plongée Advanced Open Water, j’aime aussi découvrir de nouveaux points de vue derrière un objectif.',
       gallery: [

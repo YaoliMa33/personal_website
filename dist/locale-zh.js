@@ -67,14 +67,14 @@ window.I18N.zh = {
       ],
       skills: [
         { label: '编程与机器学习', items: ['Python', 'PyTorch', 'C / C++', 'MATLAB'] },
-        { label: '机器人与硬件', items: ['ROS 2', 'Raspberry Pi', 'VHDL', 'Arduino IDE'] },
+        { label: '机器人与硬件', items: ['ROS 2', 'Arduino IDE'] },
         { label: '器件仿真', items: ['Sentaurus TCAD', 'LTspice'] }
       ],
       honors: [
         '2022年 Tag der Mathematik 数学竞赛 — 个人赛第4名，团体赛第3名',
         '2022年 Informatik-Biber 信息学竞赛 — 第3名'
       ],
-      languages: ['普通话 · 母语', '上海话 · 母语', '英语 · B2', '德语 · Abitur', '西班牙语 · A2'],
+      languages: ['普通话 · 母语', '吴语 · 母语', '英语 · B2', '德语 · Abitur', '西班牙语 · A2'],
       offDutyTitle: '实验室之外。',
       offDutyText: '在 Schloss Schule Kirchberg，我以数学、物理与音乐开启了这段求学之旅。这些照片记录了项目之外的我。',
       gallery: [
@@ -177,6 +177,7 @@ window.I18N.zh = {
           description: '香港中文大学本科期间的国际交换学习。'
         }
       ],
+      educationAchievement: {"date":"2022","title":"江苏省高考","description":"江苏省 2022 年高考：前千分之一"},
       skills: [
         { label: '编程与数据', items: ['Python', 'SQL', 'R', 'Excel', 'pandas', 'NumPy'] },
         { label: '模型与方法', items: ['statsmodels', 'arch', 'scikit-learn', 'LightGBM', 'ARIMA / GARCH', '因子回测'] },
@@ -187,7 +188,7 @@ window.I18N.zh = {
         '香港中文大学书院院长嘉许名单（优良成绩）— 2022—2023学年',
         '诺和诺德估值与信用分析 — A 等级；企业自由现金流折现、基于 CAPM 的加权平均资本成本、同业比较与情景信用分析'
       ],
-      languages: ['普通话 · 母语', '英语 · 流利／雅思 7.5', '粤语 · 流利', '法语 · 初学'],
+      languages: ['普通话 · 母语', '吴语 · 母语', '英语 · 流利／雅思 7.5', '粤语 · 流利', '法语 · 初学'],
       offDutyTitle: '数字之外，还有生活。',
       offDutyText: '离开金融模型，我喜欢水肺潜水、羽毛球、徒步与摄影。我持有进阶开放水域潜水资格，也喜欢透过镜头发现新的视角。',
       gallery: [

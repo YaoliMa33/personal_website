@@ -87,14 +87,14 @@ window.PROFILES = {
     ],
     skills: [
       { label: 'Code & learning', items: ['Python', 'PyTorch', 'C / C++', 'MATLAB'] },
-      { label: 'Robotics & hardware', items: ['ROS 2', 'Raspberry Pi', 'VHDL', 'Arduino IDE'] },
+      { label: 'Robotics & hardware', items: ['ROS 2', 'Arduino IDE'] },
       { label: 'Device simulation', items: ['Sentaurus TCAD', 'LTspice'] }
     ],
     honors: [
       'Tag der Mathematik 2022 — 4th place individual competition; 3rd place group competition',
       'Informatik-Biber 2022 — 3rd rank'
     ],
-    languages: ['Mandarin · Native', 'Shanghainese · Native', 'English · B2', 'German · Abitur', 'Spanish · A2'],
+    languages: ['Mandarin · Native', 'Wu Chinese · Native', 'English · B2', 'German · Abitur', 'Spanish · A2'],
     offDutyTitle: 'Beyond the lab.',
     offDutyText: 'My studies began with mathematics, physics and music at Schloss Schule Kirchberg. These photographs offer another view of the person behind the projects.',
     gallery: [
@@ -227,6 +227,7 @@ window.PROFILES = {
         description: 'International exchange during undergraduate study at CUHK.'
       }
     ],
+    educationAchievement: {"date":"2022","title":"Jiangsu Gaokao","description":"Ranked in the top 0.1% in the 2022 Gaokao in Jiangsu province."},
     skills: [
       { label: 'Code & data', items: ['Python', 'SQL', 'R', 'Excel', 'pandas', 'NumPy'] },
       { label: 'Models & methods', items: ['statsmodels', 'arch', 'scikit-learn', 'LightGBM', 'ARIMA / GARCH', 'Factor backtesting'] },
@@ -237,7 +238,7 @@ window.PROFILES = {
       'CUHK Head’s List (Merit) — 2022–2023',
       'Novo Nordisk Valuation & Credit — Grade A; FCFF DCF, CAPM WACC, peer comparisons and scenario credit analysis'
     ],
-    languages: ['Mandarin · Native', 'English · Fluent / IELTS 7.5', 'Cantonese · Fluent', 'French · Beginner'],
+    languages: ['Mandarin · Native', 'Wu Chinese · Native', 'English · Fluent / IELTS 7.5', 'Cantonese · Fluent', 'French · Beginner'],
     offDutyTitle: 'A little beyond the numbers.',
     offDutyText: 'Away from financial models, I enjoy scuba diving, badminton, hiking and photography. I hold an Advanced Open Water diving qualification and like finding new perspectives through a camera.',
     gallery: [
