@@ -1,0 +1,3 @@
+.openai/
+*.log
+.DS_Store
