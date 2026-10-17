@@ -69,3 +69,15 @@ Research disclosure, gallery navigation, Escape-to-close and email copy feedback
 Static checks cover all profile fields, local assets, section anchors and translation coverage.
 Keyboard and reduced-motion behavior are implemented; printing uses beforeprint/afterprint
 handlers to include research details. Print output has not been visually reviewed.
+
+## School logo sources
+
+Education timelines display the institutions' official marks on light badges, preserving their artwork and colors. Logo images are decorative beside the accessible institution headings. The shared school mapping in dist/app.js follows the education-row order in all four profile languages.
+
+- TUM: [official university website](https://www.tum.de/), public inline wordmark saved as dist/assets/schools/tum.svg.
+- Schloss Schule Kirchberg: [official school website](https://schloss-schule.de/), full wordmark saved as dist/assets/schools/kirchberg.svg.
+- École Polytechnique: [official school website](https://www.polytechnique.edu/) and [media resources](https://www.polytechnique.edu/presse/kit-media), standalone school mark saved as dist/assets/schools/polytechnique.svg.
+- HEC Paris: [official logo asset](https://www.hec.edu/themes/custom/hec_theme/logo.svg), saved as dist/assets/schools/hec-paris.svg.
+- The Chinese University of Hong Kong: [official bilingual logo asset](https://www.cuhk.edu.hk/english/images/cuhk_logo_2x.png?20221027), saved as dist/assets/schools/cuhk.png.
+
+The TUM inline mark retains its original currentColor fill, which renders black as a standalone image. The Kirchberg SVG retains the original red/black styling; its viewBox capitalization and embedded styles were normalized for standalone display. Logo artwork is not cropped, redrawn or tinted by the website. Institutional trademarks remain the property of their respective owners and identify the educational institutions listed in the profiles.

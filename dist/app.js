@@ -52,12 +52,30 @@
     return '<div class="project-visual" aria-hidden="true"><svg viewBox="0 0 600 280">' + grid + body + '</svg><span class="visual-note">CONCEPT VISUALIZATION</span></div>';
   }
 
+  // Education arrays have the same order in every language; school IDs stay independent of translated names.
+  const educationSchools = {
+    yaoli: [['tum'], ['tum'], ['kirchberg']],
+    yihan: [['polytechnique', 'hec-paris'], ['cuhk'], ['hec-paris']]
+  };
+  const schoolAssets = {
+    tum: 'tum.svg',
+    kirchberg: 'kirchberg.svg',
+    polytechnique: 'polytechnique.svg',
+    'hec-paris': 'hec-paris.svg',
+    cuhk: 'cuhk.png'
+  };
+  function educationHeading(institution, index) {
+    const schools = educationSchools[page]?.[index] || [];
+    const logos = schools.map(id => '<span class="school-logo school-logo--' + id + '"><img src="assets/schools/' + schoolAssets[id] + '" alt="" width="96" height="64" loading="lazy" decoding="async"></span>').join('');
+    return '<div class="education-heading"><h3>' + esc(institution) + '</h3><div class="school-logos" aria-hidden="true">' + logos + '</div></div>';
+  }
+
   function profile(p) {
     document.body.classList.add('profile-page',page+'-theme');
     document.documentElement.style.setProperty('--accent',p.accent);
     const projects = p.projects.map((project,i) => '<article class="project-card reveal">' + diagram(project.visual,i) + '<div class="project-content"><div class="project-meta"><span>' + esc(project.number || '0'+(i+1)) + ' / ' + esc(project.category) + '</span><span>' + esc(project.date) + '</span></div><h3>' + esc(project.title) + '</h3><p>' + esc(project.description) + '</p>' + tagList(project.tags) + '<details><summary>Inside the research <span>+</span></summary><div class="project-details"><ul>' + project.details.map(x=>'<li>'+esc(x)+'</li>').join('') + '</ul>' + (project.result ? '<p class="result-note">' + esc(project.result) + '</p>' : '') + '</div></details></div></article>').join('');
     const experiences = p.experience.map(x => '<article class="timeline-row reveal"><p class="timeline-date">' + esc(x.date) + '</p><div><span class="timeline-type">EXPERIENCE</span><h3>' + esc(x.company) + '</h3><h4>' + esc(x.role) + '</h4><p>' + esc(x.description) + '</p><ul>' + x.points.map(v=>'<li>'+esc(v)+'</li>').join('') + '</ul></div></article>').join('');
-    const education = p.education.map(x => '<article class="timeline-row reveal"><p class="timeline-date">' + esc(x.date) + '</p><div><span class="timeline-type">EDUCATION</span><h3>' + esc(x.institution) + '</h3><h4>' + esc(x.degree) + '</h4><p>' + esc(x.description) + '</p>' + (x.detail ? '<p class="education-detail">'+esc(x.detail)+'</p>':'') + '</div></article>').join('');
+    const education = p.education.map((x, i) => '<article class="timeline-row reveal"><p class="timeline-date">' + esc(x.date) + '</p><div><span class="timeline-type">EDUCATION</span>' + educationHeading(x.institution, i) + '<h4>' + esc(x.degree) + '</h4><p>' + esc(x.description) + '</p>' + (x.detail ? '<p class="education-detail">'+esc(x.detail)+'</p>':'') + '</div></article>').join('');
     const skills = p.skills.map((x,i)=>'<div class="skill-group reveal"><span class="mono">0'+(i+1)+'</span><h3>'+esc(x.label)+'</h3>'+tagList(x.items)+'</div>').join('');
     const photos = p.gallery.map((x,i)=>'<button class="gallery-item reveal" type="button" data-photo="'+i+'" aria-label="Enlarge photo: '+esc(x.alt)+'"><img src="'+esc(x.src)+'" alt="'+esc(x.alt)+'" loading="lazy" width="900" height="1100"><span><span>'+esc(x.caption)+'</span>'+arrow+'</span></button>').join('');
     app.innerHTML = header(p) + '<main id="main"><section class="profile-hero content-width" aria-labelledby="profile-name"><div class="profile-intro"><p class="eyebrow intro-reveal"><span class="status-dot"></span>'+esc(p.location.toUpperCase())+'</p><h1 id="profile-name" class="intro-reveal">'+esc(p.firstName)+'<br><span>'+esc(p.lastName)+'.</span></h1><h2 class="profile-discipline intro-reveal">'+esc(p.discipline)+'</h2><p class="profile-bio intro-reveal">'+esc(p.bio)+'</p><div class="hero-actions intro-reveal"><a class="button button-primary" href="#research">Explore my work '+down+'</a><a class="text-link" href="#contact">Get in touch '+arrow+'</a></div><div class="profile-stats intro-reveal">'+p.stats.map(x=>'<div><strong>'+esc(x.value)+'</strong><span>'+esc(x.label)+'</span></div>').join('')+'</div></div><div class="profile-portrait intro-reveal"><div class="portrait-orbit"></div><img src="'+esc(p.portrait)+'" alt="'+esc(p.portraitAlt)+'" style="object-position:'+esc(p.imagePosition)+'" fetchpriority="high" width="1080" height="1616"><div class="portrait-shade"></div><span class="portrait-label">'+esc(p.fullName.toUpperCase())+'<br><span>A WORK IN PROGRESS. ALWAYS.</span></span><span class="portrait-index">'+(page==='yaoli'?'01':'02')+'</span><span class="portrait-side">THE PERSON BEHIND THE WORK</span></div></section>'+
