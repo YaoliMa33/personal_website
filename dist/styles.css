@@ -127,3 +127,84 @@ html:not([lang="en"]) .section-heading h2{font-size:clamp(32px,3.1vw,45px)}
   .school-logo--polytechnique { width:144px; }
   .school-logo--kirchberg { width:130px; }
 }
+/* Final readability pass: clear supporting text without changing the visual hierarchy. */
+@media screen {
+  .home-copy>.eyebrow,.profile-intro>.eyebrow,.header-note { font-size:12px; line-height:1.8; color:#a9b0bf; }
+  .header-link,.profile-nav,.selector-label { font-size:13px; }
+  .profile-nav { color:#b3bac8; }
+  .profile-nav a { padding-block:8px; }
+  .profile-nav a:after { bottom:0; }
+  .switch-person { font-size:12px; line-height:1.5; }
+  .switch-person svg { flex:none; }
+  .language-control select { font-size:12px; min-width:48px; }
+  .person-name { min-width:0; }
+  .person-name small,html:not([lang="en"]) .person-name small { font-size:12px; line-height:1.7; letter-spacing:.01em; color:#a6afbe; }
+  .person-number { font-size:12px; }
+  .home-description { font-size:16px; color:#a8b0bf; }
+  .creator-credit { font-size:12px; color:#a8b0bf; }
+  .photo-caption>span,.photo-footnote,.home-art .photo-footnote { font-size:11px; color:#adb7c7; letter-spacing:.04em; }
+  .art-coordinate { font-size:10px; color:#929dad; }
+  .profile-bio { font-size:15px; line-height:1.9; color:#b1bac9; }
+  .profile-stats span { font-size:12px; line-height:1.7; color:#a8b3c5; }
+  .portrait-label { font-size:13px; }
+  .portrait-label>span { font-size:11px; }
+  .portrait-side { font-size:10px; letter-spacing:.08em; }
+  .button,.text-link { font-size:13px; }
+  .button,.language-control select { min-height:44px; }
+  .section-note { font-size:14px; line-height:1.85; color:#a5afc0; max-width:300px; }
+  .project-content>p,.yihan-theme .project-content>p,.project-details ul,.result-note,
+  .timeline-row p:not(.timeline-date),.timeline-row ul,
+  .credentials-grid p:not(.eyebrow),.credentials-grid ul { font-size:14px; line-height:1.9; color:#aeb9cb; }
+  .timeline-date { font-size:14px; }
+  .project-meta,.yihan-theme .project-meta { font-size:13px; }
+  .timeline-type,.journey-label>.mono { font-size:13px; }
+  .tags,.project-content .tags,.skill-group .tags { font-size:12px; line-height:1.6; }
+  .tags>span { padding:6px 10px; color:#bdc8da; }
+  .skill-group>.mono { font-size:12px; color:#9eacc2; }
+  .visual-note { font-size:10px; color:#a0aec2; letter-spacing:.05em; }
+  summary { font-size:13px; padding-block:18px; }
+  .timeline-row.education-achievement .education-detail { font-size:15px; color:var(--accent); }
+  .gallery-item>span { font-size:12px; line-height:1.7; letter-spacing:.01em; color:#b8c2d2; margin-top:15px; align-items:flex-start; }
+  .gallery-item>span svg { width:14px; height:14px; flex:none; margin-top:3px; }
+  .lightbox figcaption { font-size:13px; line-height:1.7; }
+  .contact-section>.eyebrow,.other-world .eyebrow { font-size:12px; }
+  .contact-bottom p,.copy-status { font-size:14px; color:#aeb9cb; }
+  .site-footer { font-size:11px; line-height:1.8; letter-spacing:.03em; color:#9ca8bb; flex-wrap:wrap; padding-block:18px; }
+  .motion-toggle { font-size:12px; min-height:44px; color:#b6c0d0; }
+  .gallery-item:focus-visible { outline-offset:5px; }
+}
+@media screen and (max-width:720px) {
+  .home-description { font-size:15px; }
+  .profile-page .site-header { height:124px; padding-top:16px; }
+  .profile-page .brand { min-height:44px; }
+  .profile-page .brand>span { font-size:11px; }
+  .header-actions { gap:10px; }
+  .language-control { padding-left:10px; }
+  .switch-person { font-size:11px; max-width:116px; padding:8px; gap:7px; }
+  .profile-nav { font-size:13px; bottom:12px; }
+  .profile-stats { gap:16px; }
+  .profile-stats span { font-size:11px; }
+  .hero-actions { gap:20px; flex-wrap:wrap; }
+  .section-note { max-width:none; }
+  .project-meta,.yihan-theme .project-meta { font-size:12px; }
+  .timeline-type,.journey-label>.mono { font-size:12px; }
+  .gallery,.gallery-4 { row-gap:30px; }
+  .gallery-item>span { font-size:12px; }
+  .contact-actions { flex-wrap:wrap; gap:18px; }
+  .site-footer { gap:4px 16px; }
+  .motion-toggle { padding-left:0; }
+}
+@media screen and (max-width:360px) {
+  .profile-page .brand>span { font-size:10px; }
+  .header-actions { gap:7px; }
+  .language-control { padding-left:7px; }
+  .language-control>svg { display:none; }
+  .switch-person { max-width:92px; font-size:11px; }
+  .profile-stats { gap:12px; }
+}
+@media screen and (min-width:721px) and (max-width:1000px) {
+  .profile-page .site-header { gap:18px; }
+  .profile-nav { gap:15px; }
+  .header-actions { gap:12px; }
+  .switch-person { padding:10px; gap:9px; }
+}

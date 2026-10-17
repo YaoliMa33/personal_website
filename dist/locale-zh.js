@@ -2,13 +2,13 @@ window.I18N = window.I18N || {};
 window.I18N.zh = {
   profiles: {
     yaoli: {
-      firstName: 'Yaoli', lastName: 'Ma', fullName: 'Yaoli Ma',
+      firstName: 'Yaoli', lastName: 'Ma', fullName: '马遥力 · Yaoli Ma',
       email: 'yaoli33ma@gmail.com', accent: '#a8c7ff',
       discipline: '机器人与机器学习', location: '德国，慕尼黑',
       role: '理学硕士在读 · 机器人、认知与智能',
       bio: '我研究机器人如何感知和理解物理世界。在慕尼黑工业大学，我将机器学习、气体传感与智能系统结合起来，探索更可靠的机器人感知。',
       portrait: 'assets/yaoli-architecture.jpg',
-      portraitAlt: 'Yaoli 在教堂内仰望建筑', imagePosition: '50% 65%',
+      portraitAlt: '马遥力在教堂内仰望建筑', imagePosition: '50% 65%',
       focus: ['机器人感知', '智能传感', '领域自适应'],
       stats: [
         { value: 'TUM', label: '慕尼黑工业大学' },
@@ -78,20 +78,20 @@ window.I18N.zh = {
       offDutyTitle: '实验室之外。',
       offDutyText: '在 Schloss Schule Kirchberg，我以数学、物理与音乐开启了这段求学之旅。这些照片记录了项目之外的我。',
       gallery: [
-        { src: 'assets/yaoli-barcelona.jpg', alt: 'Yaoli 俯瞰巴塞罗那与大海', caption: '换一个角度' },
-        { src: 'assets/yaoli-architecture.jpg', alt: 'Yaoli 站在教堂高耸的立柱与彩色玻璃下', caption: '抬头之间' },
-        {"src":"assets/yaoli-racing.jpg","alt":"Yaoli 戴着赛车帽和耳机","caption":"日常一刻"},
-        {"src":"assets/yaoli-waterfront.jpg","alt":"Yaoli 在晴天的水岸边","caption":"水岸时光"}
+        { src: 'assets/yaoli-barcelona.jpg', alt: '马遥力俯瞰巴塞罗那与大海', caption: '换一个角度' },
+        { src: 'assets/yaoli-architecture.jpg', alt: '马遥力站在教堂高耸的立柱与彩色玻璃下', caption: '抬头之间' },
+        {"src":"assets/yaoli-racing.jpg","alt":"马遥力戴着赛车帽和耳机","caption":"日常一刻"},
+        {"src":"assets/yaoli-waterfront.jpg","alt":"马遥力在晴天的水岸边","caption":"水岸时光"}
       ],
       github: null
     },
     yihan: {
-      firstName: 'Yihan', lastName: 'Zhang', fullName: 'Yihan Zhang',
+      firstName: 'Yihan', lastName: 'Zhang', fullName: '章一涵 · Yihan Zhang',
       email: 'zhangyihan226@gmail.com', accent: '#c4afff',
       discipline: '量化金融与数据科学', location: '法国，巴黎',
       role: 'X-HEC 数据与金融双学位在读',
       bio: '我通过数据、模型和严谨研究探索金融市场。我的研究涉及股票因子、波动率预测与机器学习，也积累了行业研究和商业战略方面的实践经验。',
-      portrait: 'assets/yihan-coast.jpg', portraitAlt: 'Yihan 在海边悬崖旁微笑', imagePosition: '55% 57%',
+      portrait: 'assets/yihan-coast.jpg', portraitAlt: '章一涵在海边悬崖旁微笑', imagePosition: '55% 57%',
       focus: ['量化研究', '金融市场', '机器学习'],
       stats: [
         { value: 'X-HEC', label: '数据与金融双学位' },
@@ -193,10 +193,10 @@ window.I18N.zh = {
       offDutyTitle: '数字之外，还有生活。',
       offDutyText: '离开金融模型，我喜欢水肺潜水、羽毛球、徒步与摄影。我持有进阶开放水域潜水资格，也喜欢透过镜头发现新的视角。',
       gallery: [
-        { src: 'assets/yihan-museum.jpg', alt: 'Yihan 站在博物馆高窗旁的阳光中', caption: '光与静谧' },
-        { src: 'assets/yihan-harbour.jpg', alt: 'Yihan 坐在水边，远处是城市天际线', caption: '水岸时光' },
-        { src: 'assets/yihan-venice.jpg', alt: 'Yihan 在威尼斯潟湖边享受阳光', caption: '阳光中的片刻' },
-        { src: 'assets/yihan-stone.jpg', alt: 'Yihan 坐在古老的石砌建筑旁', caption: '另一处风景，另一段故事' }
+        { src: 'assets/yihan-museum.jpg', alt: '章一涵站在博物馆高窗旁的阳光中', caption: '光与静谧' },
+        { src: 'assets/yihan-harbour.jpg', alt: '章一涵坐在水边，远处是城市天际线', caption: '水岸时光' },
+        { src: 'assets/yihan-venice.jpg', alt: '章一涵在威尼斯潟湖边享受阳光', caption: '阳光中的片刻' },
+        { src: 'assets/yihan-stone.jpg', alt: '章一涵坐在古老的石砌建筑旁', caption: '另一处风景，另一段故事' }
       ],
       github: 'https://github.com/zhangyihan226-gif'
     }
@@ -209,14 +209,14 @@ window.I18N.zh = {
     'Chinese': '中文',
     'German': '德语',
     'French': '法语',
-    'Yaoli and Yihan home': 'Yaoli 与 Yihan 的首页',
+    'Yaoli and Yihan home': '马遥力与章一涵的首页',
     'Page sections': '页面章节',
     'Research': '研究',
     'Journey': '经历',
     'Off duty': '生活',
     'Contact': '联系',
-    'Meet Yihan': '认识 Yihan',
-    'Meet Yaoli': '认识 Yaoli',
+    'Meet Yihan': '认识章一涵',
+    'Meet Yaoli': '认识马遥力',
     'Meet': '认识',
     'TWO PERSPECTIVES. ONE SHARED SPACE.': '两种视角，同一片天地。',
     'Meet us': '认识我们',
@@ -238,7 +238,7 @@ window.I18N.zh = {
     'You want to learn about': '你想了解谁？',
     'ROBOTICS · PERCEPTION · MACHINE LEARNING': '机器人 · 感知 · 机器学习',
     'QUANTITATIVE FINANCE · DATA SCIENCE': '量化金融 · 数据科学',
-    'Yaoli and Yihan together, reflected in the water': 'Yaoli 与 Yihan 的合照及水中倒影',
+    'Yaoli and Yihan together, reflected in the water': '马遥力与章一涵的合照及水中倒影',
     'A SHARED HORIZON': '共同的远方',
     '01 / TOGETHER': '01 / 在一起',
     'MUNICH ↔ PARIS': '慕尼黑 ↔ 巴黎',
@@ -295,8 +295,8 @@ window.I18N.zh = {
     'Copy email': '复制邮箱',
     'Print profile': '打印个人主页',
     'ONE MORE PERSPECTIVE': '另一种视角',
-    'Enter Yihan’s world': '走进 Yihan 的世界',
-    'Enter Yaoli’s world': '走进 Yaoli 的世界',
+    'Enter Yihan’s world': '走进章一涵的世界',
+    'Enter Yaoli’s world': '走进马遥力的世界',
     'Photo viewer': '照片查看器',
     'Close photo viewer': '关闭照片查看器',
     'Previous photo': '上一张照片',
@@ -305,16 +305,16 @@ window.I18N.zh = {
     'You can copy the address above or click it to open your email app.': '你可以复制上方邮箱地址，或点击它打开邮件应用。',
     'of': '/',
     'Skip to content': '跳转到正文',
-    'Yaoli Ma & Yihan Zhang — Two minds. One orbit.': 'Yaoli Ma 与 Yihan Zhang — 两种视角，同一轨道。',
-    'Yaoli Ma — Robotics, Perception & Machine Learning': 'Yaoli Ma — 机器人、感知与机器学习',
-    'Yihan Zhang — Quantitative Finance & Data Science': 'Yihan Zhang — 量化金融与数据科学',
-    'A shared space for two curious minds. Explore robotics and machine learning with Yaoli Ma, and quantitative finance and data science with Yihan Zhang.': '属于两颗好奇心的共同空间。与 Yaoli Ma 探索机器人和机器学习，与 Yihan Zhang 探索量化金融和数据科学。',
-    'Yaoli Ma, M.Sc. student at the Technical University of Munich. Exploring robot olfaction, sensor drift compensation, and machine learning.': 'Yaoli Ma，慕尼黑工业大学理学硕士在读。研究机器人嗅觉、传感器漂移补偿与机器学习。',
-    'Yihan Zhang, X-HEC Data & Finance student. Exploring quantitative research, machine learning, equity factors, and financial risk.': 'Yihan Zhang，X-HEC 数据与金融双学位在读。探索量化研究、机器学习、股票因子与金融风险。',
+    'Yaoli Ma & Yihan Zhang — Two minds. One orbit.': '马遥力与章一涵 — 两种视角，同一轨道。',
+    'Yaoli Ma — Robotics, Perception & Machine Learning': '马遥力 — 机器人、感知与机器学习',
+    'Yihan Zhang — Quantitative Finance & Data Science': '章一涵 — 量化金融与数据科学',
+    'A shared space for two curious minds. Explore robotics and machine learning with Yaoli Ma, and quantitative finance and data science with Yihan Zhang.': '属于两颗好奇心的共同空间。与马遥力探索机器人和机器学习，与章一涵探索量化金融和数据科学。',
+    'Yaoli Ma, M.Sc. student at the Technical University of Munich. Exploring robot olfaction, sensor drift compensation, and machine learning.': '马遥力，慕尼黑工业大学理学硕士在读。研究机器人嗅觉、传感器漂移补偿与机器学习。',
+    'Yihan Zhang, X-HEC Data & Finance student. Exploring quantitative research, machine learning, equity factors, and financial risk.': '章一涵，X-HEC 数据与金融双学位在读。探索量化研究、机器学习、股票因子与金融风险。',
     'Robotics, machine learning, quantitative finance, and a shared curiosity.': '机器人、机器学习、量化金融，以及共同的好奇心。',
     'Please enable JavaScript to explore our personal websites.': '请启用 JavaScript，以浏览我们的个人网站。',
-    'Email Yaoli': '给 Yaoli 发邮件',
-    'Email Yihan': '给 Yihan 发邮件'
+    'Email Yaoli': '给马遥力发邮件',
+    'Email Yihan': '给章一涵发邮件'
   }
 };
 Object.values(window.I18N.zh.profiles).forEach(function (profile) {
