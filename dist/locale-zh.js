@@ -80,7 +80,8 @@ window.I18N.zh = {
       gallery: [
         { src: 'assets/yaoli-barcelona.jpg', alt: 'Yaoli 俯瞰巴塞罗那与大海', caption: '换一个角度' },
         { src: 'assets/yaoli-architecture.jpg', alt: 'Yaoli 站在教堂高耸的立柱与彩色玻璃下', caption: '抬头之间' },
-        { src: 'assets/couple.jpg', alt: 'Yaoli 与 Yihan 的合照及其倒影', caption: '一起更美好' }
+        {"src":"assets/yaoli-racing.jpg","alt":"Yaoli 戴着赛车帽和耳机","caption":"日常一刻"},
+        {"src":"assets/yaoli-waterfront.jpg","alt":"Yaoli 在晴天的水岸边","caption":"水岸时光"}
       ],
       github: null
     },

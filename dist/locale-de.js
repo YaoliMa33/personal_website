@@ -102,7 +102,8 @@ window.I18N.de = {
       gallery: [
         { src: "assets/yaoli-barcelona.jpg", alt: "Yaoli mit Blick auf Barcelona und das Meer", caption: "Eine andere Perspektive" },
         { src: "assets/yaoli-architecture.jpg", alt: "Yaoli unter den hohen Säulen und Buntglasfenstern einer Kathedrale", caption: "Den Blick nach oben" },
-        { src: "assets/couple.jpg", alt: "Yaoli und Yihan gemeinsam über einer spiegelnden Fläche", caption: "Zusammen ist es schöner" }
+        {"src":"assets/yaoli-racing.jpg","alt":"Yaoli mit Motorsportkappe und Kopfhörern","caption":"Ein Moment im Alltag"},
+        {"src":"assets/yaoli-waterfront.jpg","alt":"Yaoli am Wasser an einem sonnigen Tag","caption":"Am Wasser"}
       ],
       github: null
     },

@@ -100,7 +100,8 @@ window.PROFILES = {
     gallery: [
       { src: 'assets/yaoli-barcelona.jpg', alt: 'Yaoli overlooking Barcelona and the sea', caption: 'A different perspective' },
       { src: 'assets/yaoli-architecture.jpg', alt: 'Yaoli beneath a cathedral’s tall columns and stained glass', caption: 'Looking up' },
-      { src: 'assets/couple.jpg', alt: 'Yaoli and Yihan together above a reflective surface', caption: 'Better together' }
+      {"src":"assets/yaoli-racing.jpg","alt":"Yaoli wearing a racing cap and headphones","caption":"Off the clock"},
+      {"src":"assets/yaoli-waterfront.jpg","alt":"Yaoli by the water on a sunny day","caption":"By the water"}
     ],
     github: null
   },
