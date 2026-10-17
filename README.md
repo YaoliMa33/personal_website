@@ -49,7 +49,7 @@ License files are included in dist/assets/fonts/.
 
 ## Hosting
 
-GitHub Pages publishes dist automatically after a push to main through .github/workflows/pages.yml.
+GitHub Pages publishes dist automatically after a push to main through .github/workflows/pages.yml. During deployment, prepare-pages.mjs adds content hashes to CSS and JavaScript URLs so returning visitors receive updated files.
 The repository Pages source is GitHub Actions. No paid hosting or custom domain is required.
 The profile links above can be added to LinkedIn contact information or Featured.
 Social sharing metadata and 1200 x 630 preview cards are included for all three pages.
